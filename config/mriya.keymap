@@ -22,6 +22,30 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        layer1_combo {
+            bindings = <&mo 1>;
+            key-positions = <52 55>;
+        };
+
+        lag_rus_combo {
+            bindings = <&kp F17>;
+            key-positions = <51 42>;
+        };
+
+        lag_eng_combo {
+            bindings = <&kp F18>;
+            key-positions = <56 45>;
+        };
+
+        fc_to_v_combo {
+            bindings = <&kp V>;
+            key-positions = <41 42>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -57,11 +81,11 @@
 
         layer_3 {
             bindings = <
-        &trans     &trans           &trans     &trans           &trans             &trans         &trans          &trans               &trans           &trans       &trans  &trans
-&trans  &trans    &kp INS           &trans     &trans           &trans             &trans    &kp PAGE_UP        &kp HOME         &kp UP_ARROW          &kp END  &kp KP_PLUS  &trans  &trans
-        &trans     &trans  &kp LC(LS(TAB))     &trans  &kp LC(LA(TAB))             &trans      &kp PG_DN  &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW       &trans  &trans
-        &trans  &kp LC(Z)        &kp LC(X)  &kp LC(C)        &kp LC(V)            &kp F13          &kp J         &kp INS  &kp RC(KP_NUMBER_5)          &kp DEL    &kp ENTER  &trans
-                                    &trans     &trans      &lt 1 SPACE  &kp LS(BACKSPACE)         &trans           &none               &trans           &trans
+        &trans     &trans           &trans         &trans           &trans             &trans         &trans          &trans               &trans           &trans       &trans  &trans
+&trans  &trans    &kp INS           &trans         &trans           &trans             &trans    &kp PAGE_UP        &kp HOME         &kp UP_ARROW          &kp END  &kp KP_PLUS  &trans  &trans
+        &trans     &trans  &kp LC(LS(TAB))         &trans  &kp LC(LA(TAB))             &trans      &kp PG_DN  &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW       &trans  &trans
+        &trans  &kp LC(Z)        &kp LC(X)      &kp LC(C)        &kp LC(V)            &kp F13          &kp J         &kp INS  &kp RC(KP_NUMBER_5)          &kp DEL    &kp ENTER  &trans
+                                    &trans  &mt LCTRL F17      &lt 1 SPACE  &kp LS(BACKSPACE)         &trans           &none               &trans           &trans
             >;
         };
 
