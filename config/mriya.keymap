@@ -56,11 +56,11 @@
 
         default_layer {
             bindings = <
-                               &mo 4  &kp N1    &kp N2            &kp N3       &kp N4                &kp N5             &kp N6       &kp N7     &kp N8     &kp N9         &kp N0        &kp EQUAL
-&kp LA(LC(LEFT_GUI))         &kp ESC   &kp Q     &kp G             &kp M        &kp L                 &kp W              &kp B        &kp Y      &kp U      &kp V  &kp SEMICOLON    &kp BACKSPACE  &lt 4 RIGHT_GUI
-                             &kp TAB   &kp D     &kp S             &kp T        &kp N                 &kp R              &kp I        &kp A      &kp E      &kp O          &kp H        &kp ENTER
-                      &kp LEFT_SHIFT   &kp Z     &kp X             &kp C        &kp F               &kp DOT              &kp J        &kp P      &kp K  &kp SLASH      &kp SLASH  &kp RIGHT_SHIFT
-                                              &kp LALT  &kp LEFT_CONTROL  &lt 2 SPACE  &mt LSHIFT BACKSPACE    &mt RSHFT ENTER  &lt 3 SPACE  &kp RCTRL   &kp RALT
+                                   &mo 4  &kp N1    &kp N2            &kp N3       &kp N4                &kp N5             &kp N6       &kp N7     &kp N8     &kp N9         &kp N0        &kp EQUAL
+&mt LA(LC(TAB)) LEFT_GUI         &kp ESC   &kp Q     &kp G             &kp M        &kp L                 &kp W              &kp B        &kp Y      &kp U      &kp V  &kp SEMICOLON    &kp BACKSPACE  &lt 4 RIGHT_GUI
+                                 &kp TAB   &kp D     &kp S             &kp T        &kp N                 &kp R              &kp I        &kp A      &kp E      &kp O          &kp H        &kp ENTER
+                          &kp LEFT_SHIFT   &kp Z     &kp X             &kp C        &kp F               &kp DOT              &kp J        &kp P      &kp K  &kp SLASH      &kp SLASH  &kp RIGHT_SHIFT
+                                                  &kp LALT  &kp LEFT_CONTROL  &lt 2 SPACE  &mt LSHIFT BACKSPACE    &mt RSHFT ENTER  &lt 3 SPACE  &kp RCTRL   &kp RALT
             >;
         };
 
@@ -76,11 +76,11 @@
 
         layer_2 {
             bindings = <
-                                 &trans            &kp F1            &kp F2        &kp F3         &kp F4            &kp F5                       &kp F6       &kp F7                 &kp F8     &kp F9        &kp F10  &kp F11
-&kp LEFT_GUI                  &kp GRAVE     &kp LS(GRAVE)   &kp KP_MULTIPLY  &kp KP_SLASH   &kp LS(PIPE)  &kp LS(NUMBER_7)                        &kp Q    &kp RA(Y)              &kp RA(U)      &kp J      &kp COLON   &trans  &trans
-              &mt LA(RIGHT_CONTROL) TAB         &kp GRAVE         &kp EQUAL     &kp MINUS    &kp LS(DOT)  &kp RS(NUMBER_4)                    &kp RA(I)    &kp RA(A)              &kp RA(E)      &none      &kp RA(H)   &trans
-                                 &trans  &kp LS(NUMBER_3)  &kp LS(NUMBER_1)   &kp KP_PLUS  &kp LS(COMMA)             &mo 1                        &sl 1        &kp Q                  &none  &kp COMMA  &kp RA(SLASH)   &trans
-                                                                     &trans        &trans          &none         &kp ENTER    &mt RIGHT_SHIFT BACKSPACE  &lt 1 ENTER  &mt RIGHT_CONTROL F18     &trans
+                           &trans            &kp F1            &kp F2        &kp F3         &kp F4            &kp F5                       &kp F6       &kp F7                 &kp F8     &kp F9        &kp F10  &kp F11
+&trans                  &kp GRAVE     &kp LS(GRAVE)   &kp KP_MULTIPLY  &kp KP_SLASH   &kp LS(PIPE)  &kp LS(NUMBER_7)                        &kp Q    &kp RA(Y)              &kp RA(U)      &kp J      &kp COLON   &trans  &trans
+        &mt LA(RIGHT_CONTROL) TAB         &kp GRAVE         &kp EQUAL     &kp MINUS    &kp LS(DOT)  &kp RS(NUMBER_4)                    &kp RA(I)    &kp RA(A)              &kp RA(E)      &none      &kp RA(H)   &trans
+                           &trans  &kp LS(NUMBER_3)  &kp LS(NUMBER_1)   &kp KP_PLUS  &kp LS(COMMA)             &mo 1                        &sl 1        &kp Q                  &none  &kp COMMA  &kp RA(SLASH)   &trans
+                                                               &trans        &trans          &none         &kp ENTER    &mt RIGHT_SHIFT BACKSPACE  &lt 1 ENTER  &mt RIGHT_CONTROL F18     &trans
             >;
         };
 
