@@ -30,12 +30,12 @@
             key-positions = <52 55>;
         };
 
-        lag_rus_combo {
+        lang_eng_combo {
             bindings = <&kp F17>;
             key-positions = <51 42>;
         };
 
-        lag_eng_combo {
+        lang_rus_combo {
             bindings = <&kp F18>;
             key-positions = <56 45>;
         };
@@ -43,6 +43,11 @@
         fc_to_v_combo {
             bindings = <&kp V>;
             key-positions = <41 42>;
+        };
+
+        lang_toggle_combo {
+            bindings = <&kp F19>;
+            key-positions = <51 56>;
         };
     };
 
