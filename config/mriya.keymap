@@ -137,24 +137,26 @@
             bindings = <&kp KP_ENTER>;
             key-positions = <36 34 35>;
             layers = <0>;
+            timeout-ms = <60>;
         };
 
         l0_esc_combo {
             bindings = <&kp ESCAPE>;
-            key-positions = <13 14>;
+            key-positions = <14 15>;
             layers = <0>;
         };
 
         l0_tab_1_combo {
             bindings = <&mt LA(LC(TAB)) TAB>;
-            key-positions = <26 27>;
+            key-positions = <27 28>;
             layers = <0>;
         };
 
         l0_tab_2_combo {
             bindings = <&mt LA(LC(TAB)) TAB>;
-            key-positions = <26 27 28>;
+            key-positions = <27 28 29>;
             layers = <0>;
+            timeout-ms = <60>;
         };
 
         l1_l2_l3__n2_f2_combo {
