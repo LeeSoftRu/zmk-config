@@ -65,6 +65,61 @@
             bindings = <&to 0>;
             key-positions = <33 34 35>;
         };
+
+        ctrl_z_combo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <39 40>;
+        };
+
+        ctrl_x_combo {
+            bindings = <&kp LC(X)>;
+            key-positions = <40 41>;
+        };
+
+        ctrl_c_combo {
+            bindings = <&kp LC(C)>;
+            key-positions = <41 42>;
+        };
+
+        ctrl_v_1_combo {
+            bindings = <&kp LC(V)>;
+            key-positions = <42 43>;
+        };
+
+        ctrl_v_2_combo {
+            bindings = <&kp LC(V)>;
+            key-positions = <43 52>;
+        };
+
+        l1_l2_n6_f6_combo {
+            bindings = <&mt NUMBER_6 F6>;
+            key-positions = <20 19>;
+            layers = <1 2>;
+        };
+
+        l1_l2_n7_f7_combo {
+            bindings = <&mt NUMBER_7 F7>;
+            key-positions = <20 21>;
+            layers = <1 2>;
+        };
+
+        l1_l2_l3_n5_f5_combo {
+            bindings = <&mt NUMBER_5 F5>;
+            key-positions = <17 18>;
+            layers = <1 3 2>;
+        };
+
+        l3_home_pgup_combo {
+            bindings = <&mt HOME PG_UP>;
+            key-positions = <20 21>;
+            layers = <3>;
+        };
+
+        l3_home_pudn_combo {
+            bindings = <&mt END PG_DN>;
+            key-positions = <21 22>;
+            layers = <3>;
+        };
     };
 
     keymap {
