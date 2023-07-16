@@ -190,19 +190,19 @@
         l0_backspace_2_combo {
             bindings = <&kp BACKSPACE>;
             key-positions = <21 22>;
-            layers = <0>;
+            layers = <0 2 3>;
         };
 
         l0_enter_3_combo {
             bindings = <&kp ENTER>;
             key-positions = <34 35>;
-            layers = <0>;
+            layers = <0 2 3>;
         };
 
         l0_del_2_combo {
             bindings = <&kp DELETE>;
             key-positions = <47 46>;
-            layers = <0>;
+            layers = <0 2 3>;
         };
     };
 
