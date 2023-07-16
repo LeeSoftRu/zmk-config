@@ -103,12 +103,6 @@
             layers = <1 2>;
         };
 
-        l1_l2_l3_n5_f5_combo {
-            bindings = <&mt NUMBER_5 F5>;
-            key-positions = <17 18>;
-            layers = <1 3 2>;
-        };
-
         l3_home_pgup_combo {
             bindings = <&mt HOME PG_UP>;
             key-positions = <20 21>;
@@ -152,15 +146,45 @@
         };
 
         l0_tab_1_combo {
-            bindings = <&kp TAB>;
+            bindings = <&mt LA(LC(TAB)) TAB>;
             key-positions = <26 27>;
             layers = <0>;
         };
 
         l0_tab_2_combo {
-            bindings = <&kp TAB>;
+            bindings = <&mt LA(LC(TAB)) TAB>;
             key-positions = <26 27 28>;
             layers = <0>;
+        };
+
+        l1_l2_l3__n2_f2_combo {
+            bindings = <&mt NUMBER_2 F2>;
+            key-positions = <14 15>;
+            layers = <1 3 2>;
+        };
+
+        l1_l2_l3__n3_f3_combo {
+            bindings = <&mt NUMBER_3 F3>;
+            key-positions = <15 16>;
+            layers = <1 2 3>;
+        };
+
+        l1_l2_l3__n4_f4_combo {
+            bindings = <&mt NUMBER_4 F4>;
+            key-positions = <17 16>;
+            layers = <1 2 3>;
+        };
+
+        l1_l2_l3__n1_f1_combo {
+            bindings = <&mt NUMBER_1 F1>;
+            key-positions = <13 14>;
+            layers = <1 2 3>;
+        };
+
+        l1_l2_l3__n5_f5_combo {
+            bindings = <&mt NUMBER_5 F5>;
+            key-positions = <18 17>;
+            layers = <3 2 1>;
         };
     };
 
@@ -189,11 +213,11 @@
 
         layer_2 {
             bindings = <
-                           &trans     &kp F1           &kp F2        &kp F3            &kp F4         &kp F5                       &kp F6       &kp F7                 &kp F8     &kp F9        &kp F10  &kp F11
-&trans                  &kp GRAVE  &kp TILDE  &kp KP_MULTIPLY  &kp KP_SLASH          &kp PIPE  &kp AMPERSAND                        &kp Q    &kp RA(Y)              &kp RA(U)      &kp J      &kp COLON   &trans  &trans
-        &mt LA(RIGHT_CONTROL) TAB  &kp GRAVE        &kp EQUAL  &kp KP_MINUS  &kp GREATER_THAN     &kp DOLLAR                    &kp RA(I)    &kp RA(A)              &kp RA(E)      &none      &kp RA(H)   &trans
-                           &trans   &kp HASH  &kp EXCLAMATION   &kp KP_PLUS     &kp LESS_THAN          &mo 1                        &sl 1        &kp Q                  &none  &kp COMMA  &kp RA(SLASH)   &trans
-                                                       &trans        &trans             &none      &kp ENTER    &mt RIGHT_SHIFT BACKSPACE  &lt 1 ENTER  &mt RIGHT_CONTROL F18     &trans
+                     &trans     &kp F1           &kp F2        &kp F3            &kp F4         &kp F5                       &kp F6       &kp F7                 &kp F8     &kp F9        &kp F10  &kp F11
+&trans            &kp GRAVE  &kp TILDE  &kp KP_MULTIPLY  &kp KP_SLASH          &kp PIPE  &kp AMPERSAND                        &kp Q    &kp RA(Y)              &kp RA(U)      &kp J      &kp COLON   &trans  &trans
+        &mt LA(LC(TAB)) TAB  &kp GRAVE        &kp EQUAL  &kp KP_MINUS  &kp GREATER_THAN     &kp DOLLAR                    &kp RA(I)    &kp RA(A)              &kp RA(E)      &none      &kp RA(H)   &trans
+                     &trans   &kp HASH  &kp EXCLAMATION   &kp KP_PLUS     &kp LESS_THAN          &mo 1                        &sl 1        &kp Q                  &none  &kp COMMA  &kp RA(SLASH)   &trans
+                                                 &trans        &trans             &none      &kp ENTER    &mt RIGHT_SHIFT BACKSPACE  &lt 1 ENTER  &mt RIGHT_CONTROL F18     &trans
             >;
         };
 
