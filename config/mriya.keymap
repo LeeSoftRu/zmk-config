@@ -117,8 +117,26 @@
 
         l3_home_pudn_combo {
             bindings = <&mt END PG_DN>;
-            key-positions = <21 22>;
+            key-positions = <33 34>;
             layers = <3>;
+        };
+
+        l0_backspace_combo {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <22 23>;
+            layers = <0>;
+        };
+
+        l0_enter_combo {
+            bindings = <&kp KP_ENTER>;
+            key-positions = <35 36>;
+            layers = <0>;
+        };
+
+        l0_del_combo {
+            bindings = <&kp DELETE>;
+            key-positions = <48 47>;
+            layers = <0>;
         };
     };
 
