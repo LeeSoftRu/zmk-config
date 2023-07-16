@@ -127,7 +127,7 @@
             layers = <0>;
         };
 
-        l0_enter_combo {
+        l0_enter_1_combo {
             bindings = <&kp KP_ENTER>;
             key-positions = <35 36>;
             layers = <0>;
@@ -136,6 +136,30 @@
         l0_del_combo {
             bindings = <&kp DELETE>;
             key-positions = <48 47>;
+            layers = <0>;
+        };
+
+        l0_enter_2_combo {
+            bindings = <&kp KP_ENTER>;
+            key-positions = <36 34 35>;
+            layers = <0>;
+        };
+
+        l0_esc_combo {
+            bindings = <&kp ESCAPE>;
+            key-positions = <13 14>;
+            layers = <0>;
+        };
+
+        l0_tab_1_combo {
+            bindings = <&kp TAB>;
+            key-positions = <26 27>;
+            layers = <0>;
+        };
+
+        l0_tab_2_combo {
+            bindings = <&kp TAB>;
+            key-positions = <26 27 28>;
             layers = <0>;
         };
     };
