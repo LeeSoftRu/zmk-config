@@ -49,6 +49,22 @@
             bindings = <&kp F19>;
             key-positions = <51 56>;
         };
+
+        left_enter_combo {
+            bindings = <&kp ENTER>;
+            key-positions = <52 53>;
+        };
+
+        l0_left_nav_mode_on_combo {
+            bindings = <&to 3>;
+            key-positions = <33 34 35>;
+            layers = <0>;
+        };
+
+        l3_left_nav_mode_off_combo {
+            bindings = <&to 0>;
+            key-positions = <33 34 35>;
+        };
     };
 
     keymap {
@@ -66,11 +82,11 @@
 
         layer_1 {
             bindings = <
-        &trans  &kp F1  &kp F2                    &kp F3  &kp F4  &kp F5                     &kp F6            &kp F7                &kp F8                 &kp F9        &kp F10  &kp F12
-&trans  &trans  &trans  &trans                    &trans  &trans  &trans          &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE        &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp SEMICOLON   &trans  &trans
-        &trans  &kp N1  &kp N2  &mt KP_SUBTRACT NUMBER_3  &kp N4  &kp N5              &kp LC(SLASH)      &kp LS(SEMI)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LS(MINUS)   &trans
-        &trans  &kp N6  &kp N7      &mt KP_PLUS NUMBER_8  &kp N9  &kp N0    &kp LC(LS(KP_MULTIPLY))         &kp COMMA      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH   &trans
-                        &trans                    &trans  &trans  &trans                     &trans            &trans                &trans                 &trans
+        &trans  &kp F1  &kp F2                    &kp F3        &kp F4  &kp F5                     &kp F6            &kp F7                &kp F8                 &kp F9        &kp F10  &kp F12
+&trans  &trans  &trans  &trans                    &trans  &kp NUMBER_0  &trans          &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE        &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp SEMICOLON   &trans  &trans
+        &trans  &kp N1  &kp N2  &mt KP_SUBTRACT NUMBER_3        &kp N4  &kp N5              &kp LC(SLASH)      &kp LS(SEMI)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LS(MINUS)   &trans
+        &trans  &kp N6  &kp N7      &mt KP_PLUS NUMBER_8        &kp N9  &kp N0    &kp LC(LS(KP_MULTIPLY))         &kp COMMA      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH   &trans
+                        &trans                    &trans        &trans  &trans                     &trans            &trans                &trans                 &trans
             >;
         };
 
