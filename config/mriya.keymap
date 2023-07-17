@@ -83,7 +83,7 @@
 
         ctrl_v_2_combo {
             bindings = <&kp LC(V)>;
-            key-positions = <43 52>;
+            key-positions = <30 29>;
         };
 
         l1_l2_n6_f6_combo {
