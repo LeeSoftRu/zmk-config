@@ -221,6 +221,18 @@
         };
     };
 
+    macros {
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            label = "NEW_MACRO";
+            #binding-cells = <0>;
+            bindings =
+                <&kp>,
+                <&macro_press>,
+                <&macro_tap>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -276,11 +288,11 @@
 
         layer_5_app_list {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans  &trans   &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans  &trans   &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(TAB)  &trans  &kp TAB  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans  &trans   &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans       &trans  &trans   &trans
+        &trans      &trans              &trans            &trans              &trans           &trans    &trans       &trans        &trans   &trans  &trans  &trans
+&trans  &trans  &kp K_MUTE  &kp C_AL_PREV_TASK  &kp K_PLAY_PAUSE  &kp C_AL_NEXT_TASK  &kp C_VOLUME_UP    &trans       &trans        &trans   &trans  &trans  &trans  &trans
+        &trans  &kp K_MUTE         &kp LS(TAB)      &kp KP_ENTER             &kp TAB     &kp C_VOL_DN    &trans  &kp LS(TAB)  &kp KP_ENTER  &kp TAB  &trans  &trans
+        &trans      &trans              &trans         &kp LG(D)              &trans            &none    &trans       &trans        &trans   &trans  &trans  &trans
+                                        &trans            &trans               &none           &trans    &trans       &trans        &trans   &trans
             >;
         };
 
