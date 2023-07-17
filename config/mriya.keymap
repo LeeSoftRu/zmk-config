@@ -40,11 +40,6 @@
             key-positions = <56 45>;
         };
 
-        fc_to_v_combo {
-            bindings = <&kp V>;
-            key-positions = <41 42>;
-        };
-
         lang_toggle_combo {
             bindings = <&kp F19>;
             key-positions = <51 56>;
