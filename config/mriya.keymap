@@ -288,11 +288,11 @@
 
         layer_5_app_list {
             bindings = <
-        &trans      &trans              &trans            &trans              &trans           &trans    &trans       &trans        &trans   &trans  &trans  &trans
-&trans  &trans  &kp K_MUTE  &kp C_AL_PREV_TASK  &kp K_PLAY_PAUSE  &kp C_AL_NEXT_TASK  &kp C_VOLUME_UP    &trans       &trans        &trans   &trans  &trans  &trans  &trans
-        &trans  &kp K_MUTE         &kp LS(TAB)      &kp KP_ENTER             &kp TAB     &kp C_VOL_DN    &trans  &kp LS(TAB)  &kp KP_ENTER  &kp TAB  &trans  &trans
-        &trans      &trans              &trans         &kp LG(D)              &trans            &none    &trans       &trans        &trans   &trans  &trans  &trans
-                                        &trans            &trans               &none           &trans    &trans       &trans        &trans   &trans
+        &trans      &trans             &trans            &trans         &trans           &trans    &trans       &trans        &trans   &trans  &trans  &trans
+&trans  &trans  &kp C_MUTE         &kp C_PREV  &kp C_PLAY_PAUSE     &kp C_NEXT  &kp C_VOLUME_UP    &trans       &trans        &trans   &trans  &trans  &trans  &trans
+        &trans  &kp C_MENU        &kp LS(TAB)      &kp KP_ENTER        &kp TAB     &kp C_VOL_DN    &trans  &kp LS(TAB)  &kp KP_ENTER  &kp TAB  &trans  &trans
+        &trans      &trans  &kp LA(LS(GRAVE))         &kp LG(D)  &kp LA(GRAVE)            &none    &trans       &trans        &trans   &trans  &trans  &trans
+                                       &trans            &trans          &none           &trans    &trans       &trans        &trans   &trans
             >;
         };
 
