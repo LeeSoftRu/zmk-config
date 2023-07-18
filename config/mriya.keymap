@@ -268,10 +268,10 @@
 
         layer_3 {
             bindings = <
-        &trans     &kp F1           &kp F2         &kp F3           &kp F4                    &kp F5         &kp F6          &kp F7               &kp F8           &kp F9      &kp F10  &kp F11
-&trans  &trans    &kp INS           &trans         &trans           &trans                    &trans    &kp PAGE_UP        &kp HOME         &kp UP_ARROW          &kp END  &kp KP_PLUS   &trans  &trans
-        &trans     &trans  &kp LC(LS(TAB))         &trans  &kp LC(LA(TAB))                    &trans      &kp PG_DN  &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW       &trans   &trans
-        &trans  &kp LC(Z)        &kp LC(X)      &kp LC(C)        &kp LC(V)                   &kp F13          &kp J         &kp INS  &kp RC(KP_NUMBER_5)          &kp DEL    &kp ENTER   &trans
+        &trans     &kp F1           &kp F2         &kp F3           &kp F4                    &kp F5         &kp F6          &kp F7               &kp F8           &kp F9       &kp F10  &kp F11
+&trans  &trans    &kp INS           &trans         &trans           &trans                    &trans    &kp PAGE_UP        &kp HOME         &kp UP_ARROW          &kp END   &kp KP_PLUS   &trans  &trans
+        &trans     &trans  &kp LC(LS(TAB))         &trans  &kp LC(LA(TAB))                    &trans      &kp PG_DN  &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp KP_MINUS   &trans
+        &trans  &kp LC(Z)        &kp LC(X)      &kp LC(C)        &kp LC(V)                   &kp F13          &kp J         &kp INS  &kp RC(KP_NUMBER_5)          &kp DEL     &kp ENTER   &trans
                                     &trans  &mt LCTRL F17      &lt 1 SPACE  &mt LEFT_SHIFT BACKSPACE         &trans           &none               &trans           &trans
             >;
         };
