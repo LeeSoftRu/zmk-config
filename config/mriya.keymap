@@ -251,6 +251,18 @@
             layers = <0>;
             timeout-ms = <60>;
         };
+
+        gl_thumb_to_l1_2_combo {
+            bindings = <&mo 1>;
+            key-positions = <52 51>;
+            timeout-ms = <60>;
+        };
+
+        gl_thumb_to_l1_3_combo {
+            bindings = <&mo 1>;
+            key-positions = <55 56>;
+            timeout-ms = <60>;
+        };
     };
 
     macros {
