@@ -26,9 +26,9 @@
         compatible = "zmk,combos";
 
         layer1_combo {
-            bindings = <&mo 1>;
+            bindings = <&lt 1 F19>;
             key-positions = <52 55>;
-            timeout-ms = <60>;
+            timeout-ms = <55>;
         };
 
         lang_eng_combo {
@@ -280,7 +280,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        l0_default {
             bindings = <
                                    &mo 4  &kp N1    &kp N2            &kp N3       &kp N4                &kp N5             &kp N6       &kp N7     &kp N8     &kp N9         &kp N0        &kp EQUAL
 &mt LEFT_GUI LA(LC(TAB))         &kp ESC   &kp Q     &kp G             &kp M        &kp L                 &kp W              &kp B        &kp Y      &kp U      &kp V  &kp SEMICOLON    &kp BACKSPACE  &lt 4 RIGHT_GUI
@@ -290,27 +290,27 @@
             >;
         };
 
-        layer_1 {
+        l1_nums_and_chars {
             bindings = <
-        &trans  &kp F1  &kp F2                    &kp F3        &kp F4  &kp F5                     &kp F6            &kp F7                &kp F8                 &kp F9        &kp F10  &kp F12
-&trans  &trans  &trans  &trans                    &trans  &kp NUMBER_0  &trans          &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE        &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp SEMICOLON   &trans  &trans
-        &trans  &kp N1  &kp N2  &mt KP_SUBTRACT NUMBER_3        &kp N4  &kp N5              &kp LC(SLASH)      &kp LS(SEMI)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LS(MINUS)   &trans
-        &trans  &kp N6  &kp N7      &mt KP_PLUS NUMBER_8        &kp N9  &kp N0    &kp LC(LS(KP_MULTIPLY))         &kp COMMA      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH   &trans
-                        &trans                    &trans        &trans  &trans                     &trans            &trans                &trans                 &trans
+        &trans   &kp F1  &kp F2                    &kp F3        &kp F4   &kp F5                     &kp F6            &kp F7                &kp F8                 &kp F9        &kp F10  &kp F12
+&trans  &trans  &kp DOT  &trans                    &trans  &kp NUMBER_0  &kp DOT          &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE        &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp SEMICOLON   &trans  &trans
+        &trans   &kp N1  &kp N2  &mt KP_SUBTRACT NUMBER_3        &kp N4   &kp N5              &kp LC(SLASH)      &kp LS(SEMI)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LS(MINUS)   &trans
+        &trans   &kp N6  &kp N7      &mt KP_PLUS NUMBER_8        &kp N9   &kp N0    &kp LC(LS(KP_MULTIPLY))         &kp COMMA      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH   &trans
+                         &trans                    &trans        &trans   &trans                     &trans            &trans                &trans                 &trans
             >;
         };
 
-        layer_2 {
+        l2_chars_and_rare_rus {
             bindings = <
-                     &trans     &kp F1           &kp F2        &kp F3            &kp F4          &kp F5                       &kp F6       &kp F7                 &kp F8     &kp F9        &kp F10  &kp F11
-&trans            &kp GRAVE  &kp TILDE  &kp KP_MULTIPLY  &kp KP_SLASH          &kp PIPE   &kp AMPERSAND                        &kp Q    &kp RA(Y)              &kp RA(U)      &kp J      &kp COLON   &trans  &trans
-        &mt LA(LC(TAB)) TAB  &kp GRAVE        &kp EQUAL  &kp KP_MINUS  &kp GREATER_THAN  &kp LS(DOLLAR)                    &kp RA(I)    &kp RA(A)              &kp RA(E)      &none      &kp RA(H)   &trans
-                     &trans   &kp HASH  &kp EXCLAMATION   &kp KP_PLUS     &kp LESS_THAN           &mo 1                        &sl 1        &kp Q                  &none  &kp COMMA  &kp RA(SLASH)   &trans
-                                                 &trans        &trans             &none       &kp ENTER    &mt RIGHT_SHIFT BACKSPACE  &lt 1 ENTER  &mt RIGHT_CONTROL F18     &trans
+                     &trans           &kp F1                        &kp F2                  &kp F3            &kp F4            &kp F5                       &kp F6       &kp F7                 &kp F8     &kp F9        &kp F10  &kp F11
+&trans            &kp GRAVE  &mt CARET TILDE  &mt LS(NUMBER_8) KP_MULTIPLY  &mt BACKSLASH KP_SLASH  &mt PERCENT PIPE  &mt AT AMPERSAND                        &kp Q    &kp RA(Y)              &kp RA(U)      &kp J      &kp COLON   &trans  &trans
+        &mt LA(LC(TAB)) TAB        &kp GRAVE                     &kp EQUAL            &kp KP_MINUS  &kp GREATER_THAN  &kp RS(NUMBER_4)                    &kp RA(I)    &kp RA(A)              &kp RA(E)      &none      &kp RA(H)   &trans
+                     &trans         &kp HASH               &kp EXCLAMATION             &kp KP_PLUS     &kp LESS_THAN             &mo 1                        &sl 1        &kp Q                  &none  &kp COMMA  &kp RA(SLASH)   &trans
+                                                                    &trans                  &trans             &none         &kp ENTER    &mt RIGHT_SHIFT BACKSPACE  &lt 1 ENTER  &mt RIGHT_CONTROL F18     &trans
             >;
         };
 
-        layer_3 {
+        l3_clipboard_and_arrows {
             bindings = <
         &trans     &kp F1           &kp F2         &kp F3           &kp F4                    &kp F5         &kp F6          &kp F7               &kp F8           &kp F9       &kp F10  &kp F11
 &trans  &trans    &kp INS           &trans         &trans           &trans                    &trans    &kp PAGE_UP        &kp HOME         &kp UP_ARROW          &kp END   &kp KP_PLUS   &trans  &trans
@@ -322,15 +322,15 @@
 
         layer_4 {
             bindings = <
-                                        &trans  &trans  &trans  &trans  &trans  &trans         &to 0       &to 3             &trans            &trans  &trans  &trans
-&trans                         &kp PAUSE_BREAK  &trans  &trans  &trans  &trans  &trans    &kp C_NEXT  &kp C_STOP    &kp C_VOLUME_UP  &kp C_PLAY_PAUSE  &trans  &trans  &trans
-        &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &trans  &trans  &trans  &trans  &trans    &kp C_PREV  &kp C_PREV  &kp C_VOLUME_DOWN        &kp C_NEXT  &trans  &trans
-                                        &trans  &trans  &trans  &trans  &trans  &trans        &trans      &trans         &kp C_MUTE            &trans  &trans  &trans
-                                                        &trans  &trans  &trans  &trans        &trans      &trans             &trans            &trans
+                                        &trans  &trans  &trans  &trans  &trans      &trans         &to 0       &to 3             &trans            &trans  &trans  &trans
+&trans                         &kp PAUSE_BREAK  &trans  &trans  &trans  &trans      &trans    &kp C_NEXT  &kp C_STOP    &kp C_VOLUME_UP  &kp C_PLAY_PAUSE  &trans  &trans  &trans
+        &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &trans  &trans  &trans  &trans  &kp DOLLAR    &kp C_PREV  &kp C_PREV  &kp C_VOLUME_DOWN        &kp C_NEXT  &trans  &trans
+                                        &trans  &trans  &trans  &trans  &trans      &trans        &trans      &trans         &kp C_MUTE            &trans  &trans  &trans
+                                                        &trans  &trans  &trans      &trans        &trans      &trans             &trans            &trans
             >;
         };
 
-        layer_5_app_list {
+        l5_music_and_app_list {
             bindings = <
         &trans        &trans             &trans            &trans         &trans           &trans    &trans       &trans        &trans   &trans  &trans  &trans
 &trans  &trans    &kp C_MUTE         &kp C_PREV  &kp C_PLAY_PAUSE     &kp C_NEXT  &kp C_VOLUME_UP    &trans       &trans        &trans   &trans  &trans  &trans  &trans
@@ -340,7 +340,7 @@
             >;
         };
 
-        layer_6_soft {
+        l6_soft {
             bindings = <
         &trans  &trans  &trans  &trans         &trans                 &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans         &trans          &kp LA(SPACE)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
