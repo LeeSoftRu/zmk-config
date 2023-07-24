@@ -252,16 +252,30 @@
             timeout-ms = <60>;
         };
 
-        gl_thumb_to_l1_2_combo {
+        l0_l3__thumb_to_l1_2_combo {
             bindings = <&mo 1>;
             key-positions = <52 51>;
             timeout-ms = <60>;
+            layers = <0 3>;
         };
 
-        gl_thumb_to_l1_3_combo {
+        l0_l3__thumb_to_l1_3_combo {
             bindings = <&mo 1>;
             key-positions = <55 56>;
             timeout-ms = <60>;
+            layers = <3 0>;
+        };
+
+        l0_l3__esc_9 {
+            bindings = <&kp TAB>;
+            key-positions = <16 15>;
+            layers = <0 3>;
+        };
+
+        l0_l3__enter_9 {
+            bindings = <&kp KP_ENTER>;
+            key-positions = <28 29>;
+            layers = <0 3>;
         };
     };
 
