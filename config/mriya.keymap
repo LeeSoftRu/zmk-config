@@ -267,13 +267,13 @@
         };
 
         l0_l3__esc_9 {
-            bindings = <&kp TAB>;
+            bindings = <&kp ESCAPE>;
             key-positions = <16 15>;
             layers = <0 3>;
         };
 
         l0_l3__enter_9 {
-            bindings = <&kp KP_ENTER>;
+            bindings = <&kp TAB>;
             key-positions = <28 29>;
             layers = <0 3>;
         };
