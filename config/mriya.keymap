@@ -277,18 +277,15 @@
             key-positions = <28 29>;
             layers = <0 3>;
         };
+
+        l0_l3__backspace_9 {
+            bindings = <&kp>;
+            key-positions = <21 35>;
+            layers = <0 3>;
+        };
     };
 
     macros {
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            label = "NEW_MACRO";
-            #binding-cells = <0>;
-            bindings =
-                <&kp>,
-                <&macro_press>,
-                <&macro_tap>;
-        };
     };
 
     keymap {
@@ -356,11 +353,11 @@
 
         l6_soft {
             bindings = <
-        &trans  &trans  &trans  &trans         &trans                 &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans         &trans          &kp LA(SPACE)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans         &trans  &kp LC(LA(LS(ENTER)))    &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &kp LG(LS(F))                 &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans         &trans                 &trans    &trans  &trans  &trans  &trans
+        &trans  &trans                   &trans  &trans         &trans                   &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans                   &trans  &trans         &trans  &mt LS(LC(R)) LS(LC(W))    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &mt LA(SPACE) LA(SPACE)  &trans         &trans    &kp LC(LA(LS(ENTER)))    &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans                   &trans  &trans  &kp LG(LS(F))                   &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                         &trans  &trans         &trans                   &trans    &trans  &trans  &trans  &trans
             >;
         };
 
