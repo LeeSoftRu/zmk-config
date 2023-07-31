@@ -28,7 +28,7 @@
         layer1_combo {
             bindings = <&lt 1 F19>;
             key-positions = <52 55>;
-            timeout-ms = <55>;
+            timeout-ms = <60>;
         };
 
         lang_eng_combo {
@@ -255,14 +255,14 @@
         l0_l3__thumb_to_l1_2_combo {
             bindings = <&mo 1>;
             key-positions = <52 51>;
-            timeout-ms = <60>;
+            timeout-ms = <65>;
             layers = <0 3>;
         };
 
         l0_l3__thumb_to_l1_3_combo {
             bindings = <&mo 1>;
             key-positions = <55 56>;
-            timeout-ms = <60>;
+            timeout-ms = <65>;
             layers = <3 0>;
         };
 
@@ -277,15 +277,18 @@
             key-positions = <28 29>;
             layers = <0 3>;
         };
-
-        l0_l3__backspace_9 {
-            bindings = <&kp>;
-            key-positions = <21 35>;
-            layers = <0 3>;
-        };
     };
 
     macros {
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            label = "NEW_MACRO";
+            #binding-cells = <0>;
+            bindings =
+                <&kp>,
+                <&macro_press>,
+                <&macro_tap>;
+        };
     };
 
     keymap {
@@ -353,11 +356,11 @@
 
         l6_soft {
             bindings = <
-        &trans  &trans                   &trans  &trans         &trans                   &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans                   &trans  &trans         &trans  &mt LS(LC(R)) LS(LC(W))    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &mt LA(SPACE) LA(SPACE)  &trans         &trans    &kp LC(LA(LS(ENTER)))    &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans                   &trans  &trans  &kp LG(LS(F))                   &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                         &trans  &trans         &trans                   &trans    &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans         &trans                 &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans         &trans          &kp LA(SPACE)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans         &trans  &kp LC(LA(LS(ENTER)))    &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &kp LG(LS(F))                 &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans         &trans                 &trans    &trans  &trans  &trans  &trans
             >;
         };
 
