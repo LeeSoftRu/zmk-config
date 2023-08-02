@@ -25,28 +25,22 @@
     combos {
         compatible = "zmk,combos";
 
-        layer1_combo {
-            bindings = <&lt 1 F19>;
+        gg_lang_toggle_and_l1_combo {
+            bindings = <&lt 1 F13>;
             key-positions = <52 55>;
-            timeout-ms = <60>;
+            timeout-ms = <65>;
         };
 
         lang_eng_combo {
-            bindings = <&kp F17>;
+            bindings = <&kp F14>;
             key-positions = <51 42>;
             timeout-ms = <65>;
         };
 
         lang_rus_combo {
-            bindings = <&kp F18>;
+            bindings = <&kp F15>;
             key-positions = <56 45>;
             timeout-ms = <65>;
-        };
-
-        lang_toggle_combo {
-            bindings = <&kp F19>;
-            key-positions = <56 52>;
-            timeout-ms = <60>;
         };
 
         left_enter_combo {
@@ -307,10 +301,10 @@
 
         l2_chars_and_rare_rus {
             bindings = <
-                     &trans           &kp F1                        &kp F2                  &kp F3            &kp F4                      &kp F5                       &kp F6       &kp F7                 &kp F8     &kp F9        &kp F10  &kp F11
-&trans            &kp GRAVE  &mt CARET TILDE  &mt LS(NUMBER_8) KP_MULTIPLY  &mt BACKSLASH KP_SLASH  &mt PERCENT PIPE  &mt RS(NUMBER_2) AMPERSAND                    &kp RA(B)    &kp RA(Y)              &kp RA(U)      &kp J      &kp COLON   &trans  &trans
-        &mt LA(LC(TAB)) TAB        &kp GRAVE                     &kp EQUAL            &kp KP_MINUS  &kp GREATER_THAN            &kp RS(NUMBER_4)                      &kp F21      &kp F22                &kp F23      &none        &kp F24   &trans
-                     &trans         &kp HASH               &kp EXCLAMATION             &kp KP_PLUS     &kp LESS_THAN                       &mo 1                        &sl 1        &kp Q                  &none  &kp COMMA  &kp LS(SLASH)   &trans
+                     &trans           &kp F1                        &kp F2                  &kp F3            &kp F4                      &kp F5                       &kp F6       &kp F7                 &kp F8     &kp F9    &kp F10  &kp F11
+&trans            &kp GRAVE  &mt CARET TILDE  &mt LS(NUMBER_8) KP_MULTIPLY  &mt BACKSLASH KP_SLASH  &mt PERCENT PIPE  &mt RS(NUMBER_2) AMPERSAND                      &kp F18      &kp F19                &kp F20      &kp J  &kp COLON   &trans  &trans
+        &mt LA(LC(TAB)) TAB        &kp GRAVE                     &kp EQUAL            &kp KP_MINUS  &kp GREATER_THAN            &kp RS(NUMBER_4)                      &kp F21      &kp F22                &kp F23      &none    &kp F24   &trans
+                     &trans         &kp HASH               &kp EXCLAMATION             &kp KP_PLUS     &kp LESS_THAN                       &mo 1                        &sl 1        &kp Q                  &none  &kp COMMA    &kp F17   &trans
                                                                     &trans                  &trans             &none                   &kp ENTER    &mt RIGHT_SHIFT BACKSPACE  &lt 1 ENTER  &mt RIGHT_CONTROL F18     &trans
             >;
         };
