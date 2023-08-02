@@ -34,13 +34,13 @@
         lang_eng_combo {
             bindings = <&kp F17>;
             key-positions = <51 42>;
-            timeout-ms = <60>;
+            timeout-ms = <65>;
         };
 
         lang_rus_combo {
             bindings = <&kp F18>;
             key-positions = <56 45>;
-            timeout-ms = <60>;
+            timeout-ms = <65>;
         };
 
         lang_toggle_combo {
