@@ -26,19 +26,19 @@
         compatible = "zmk,combos";
 
         gg_lang_toggle_and_l1_combo {
-            bindings = <&lt 1 F13>;
+            bindings = <&mt LEFT_ALT F13>;
             key-positions = <52 55>;
             timeout-ms = <65>;
         };
 
-        lang_eng_combo {
-            bindings = <&kp F14>;
+        gg_lang_eng_combo {
+            bindings = <&mt LEFT_ALT F14>;
             key-positions = <51 42>;
             timeout-ms = <65>;
         };
 
-        lang_rus_combo {
-            bindings = <&kp F15>;
+        gg_lang_rus_combo {
+            bindings = <&mt RIGHT_ALT F15>;
             key-positions = <56 45>;
             timeout-ms = <65>;
         };
@@ -341,11 +341,11 @@
 
         l6_soft {
             bindings = <
-        &trans  &trans  &trans  &trans         &trans                 &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans         &trans          &kp LA(SPACE)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans         &trans  &kp LC(LA(LS(ENTER)))    &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &kp LG(LS(F))                 &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans         &trans                 &trans    &trans  &trans  &trans  &trans
+        &trans  &trans         &trans  &trans         &trans                 &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans         &trans  &trans         &trans          &kp LA(SPACE)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &kp LS(LC(W))  &trans         &trans  &kp LC(LA(LS(ENTER)))    &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans         &trans  &trans  &kp LG(LS(F))                 &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                               &trans  &trans         &trans                 &trans    &trans  &trans  &trans  &trans
             >;
         };
 
