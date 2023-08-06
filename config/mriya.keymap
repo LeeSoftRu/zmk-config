@@ -282,6 +282,16 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <35 21>;
         };
+
+        gg_l_gui_combo {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <39 40 41>;
+        };
+
+        gg_r_gui_combo {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <48 47 46>;
+        };
     };
 
     macros {
