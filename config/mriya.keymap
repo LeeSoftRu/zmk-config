@@ -124,7 +124,7 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <22 23>;
             layers = <0 1 2 3>;
-            timeout-ms = <60>;
+            timeout-ms = <65>;
         };
 
         l0_enter_1_combo {
@@ -291,6 +291,11 @@
         gg_r_gui_combo {
             bindings = <&kp RIGHT_GUI>;
             key-positions = <48 47 46>;
+        };
+
+        gg_backspace_5_combo {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <46 45>;
         };
     };
 
