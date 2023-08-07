@@ -229,7 +229,7 @@
             bindings = <&lt 5 LA(LC(TAB))>;
             key-positions = <43 52>;
             layers = <0>;
-            timeout-ms = <60>;
+            timeout-ms = <65>;
         };
 
         l5_alt_for_app_switch_combo {
