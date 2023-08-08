@@ -286,11 +286,13 @@
         gg_l_gui_combo {
             bindings = <&kp LEFT_GUI>;
             key-positions = <39 40 41>;
+            timeout-ms = <65>;
         };
 
         gg_r_gui_combo {
             bindings = <&kp RIGHT_GUI>;
             key-positions = <48 47 46>;
+            timeout-ms = <65>;
         };
 
         gg_backspace_5_combo {
@@ -311,7 +313,7 @@
 &mt LEFT_GUI LA(LC(TAB))         &kp ESC   &kp Q     &kp G          &kp M        &kp L                 &kp W              &kp B        &kp Y          &kp U      &kp V  &kp SEMICOLON    &kp BACKSPACE  &lt 4 RIGHT_GUI
                                  &kp TAB   &kp D     &kp S          &kp T        &kp N                 &kp R              &kp I        &kp A          &kp E      &kp O          &kp H        &kp ENTER
                           &kp LEFT_SHIFT   &kp Z     &kp X          &kp C        &kp F               &kp DOT              &kp J        &kp P          &kp K  &kp SLASH      &kp SLASH  &kp RIGHT_SHIFT
-                                                  &kp LALT  &mt LCTRL F14  &lt 2 SPACE  &mt LSHIFT BACKSPACE    &mt RSHFT ENTER  &lt 3 SPACE  &mt RCTRL F15   &kp RALT
+                                                  &kp LALT  &mt LCTRL F14  &lt 2 SPACE  &mt LSHIFT BACKSPACE    &mt LSHFT ENTER  &lt 3 SPACE  &mt RCTRL F15   &kp RALT
             >;
         };
 
@@ -341,7 +343,7 @@
 &trans  &trans    &kp INS           &trans         &trans           &trans                    &trans    &kp PAGE_UP        &kp HOME         &kp UP_ARROW          &kp END   &kp KP_PLUS   &trans  &trans
         &trans     &trans  &kp LC(LS(TAB))         &trans  &kp LC(LA(TAB))                    &trans      &kp PG_DN  &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp KP_MINUS   &trans
         &trans  &kp LC(Z)        &kp LC(X)      &kp LC(C)        &kp LC(V)                   &kp F13          &kp J         &kp INS  &kp RC(KP_NUMBER_5)          &kp DEL     &kp ENTER   &trans
-                                    &trans  &mt LCTRL F17      &lt 1 SPACE  &mt LEFT_SHIFT BACKSPACE         &trans           &none               &trans           &trans
+                                    &trans  &mt LCTRL F17           &trans  &mt LEFT_SHIFT BACKSPACE         &trans           &none               &trans           &trans
             >;
         };
 
