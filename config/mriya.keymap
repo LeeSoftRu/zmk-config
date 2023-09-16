@@ -299,6 +299,61 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <46 45>;
         };
+
+        gg_f6_combo {
+            bindings = <&kp F6>;
+            key-positions = <6 19>;
+        };
+
+        gg_f7_combo {
+            bindings = <&kp F7>;
+            key-positions = <7 20>;
+        };
+
+        gg_f2_combo {
+            bindings = <&kp F2>;
+            key-positions = <2 15>;
+        };
+
+        gg_f3_combo {
+            bindings = <&kp F3>;
+            key-positions = <3 16>;
+        };
+
+        gg_f4_combo {
+            bindings = <&kp F4>;
+            key-positions = <4 17>;
+        };
+
+        gg_f5_combo {
+            bindings = <&kp F5>;
+            key-positions = <5 18>;
+        };
+
+        gg_1_combo {
+            bindings = <&kp N1>;
+            key-positions = <14 27>;
+        };
+
+        gg_2_combo {
+            bindings = <&kp N2>;
+            key-positions = <15 28>;
+        };
+
+        gg_3_combo {
+            bindings = <&kp N3>;
+            key-positions = <16 29>;
+        };
+
+        gg_4_combo {
+            bindings = <&kp N4>;
+            key-positions = <17 30>;
+        };
+
+        gg_5_combo {
+            bindings = <&kp N5>;
+            key-positions = <18 31>;
+        };
     };
 
     macros {
