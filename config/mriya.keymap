@@ -355,6 +355,16 @@
             bindings = <&kp N5>;
             key-positions = <18 31>;
         };
+
+        gg_f12_1 {
+            bindings = <&kp F12>;
+            key-positions = <1 10>;
+        };
+
+        gg_f12_2 {
+            bindings = <&kp F12>;
+            key-positions = <1 14 10 23>;
+        };
     };
 
     macros {
