@@ -361,6 +361,50 @@
             bindings = <&kp F12>;
             key-positions = <1 14 10 23>;
         };
+
+        gg_l_gui_combo_2 {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <39 41>;
+            timeout-ms = <65>;
+        };
+
+        gg_r_gui_combo_2 {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <48 46>;
+            timeout-ms = <65>;
+        };
+
+        gg_f8_combo {
+            bindings = <&kp F8>;
+            key-positions = <8 21>;
+        };
+
+        gg_f9_combo {
+            bindings = <&kp F9>;
+            key-positions = <9 22>;
+        };
+
+        gg_f10_combo {
+            bindings = <&kp F10>;
+            key-positions = <10 23>;
+        };
+
+        gg_f1_combo {
+            bindings = <&kp F1>;
+            key-positions = <1 14>;
+        };
+
+        gg_l_gui_combo_3 {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <42 40>;
+            timeout-ms = <65>;
+        };
+
+        gg_r_gui_combo_3 {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <45 47>;
+            timeout-ms = <65>;
+        };
     };
 
     keymap {
