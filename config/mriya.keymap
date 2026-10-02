@@ -93,20 +93,6 @@
             require-prior-idle-ms = <10>;
         };
 
-        l1_l2_n6_f6_combo {
-            bindings = <&mt NUMBER_6 F6>;
-            key-positions = <20 19>;
-            layers = <1 2>;
-            timeout-ms = <60>;
-        };
-
-        l1_l2_n7_f7_combo {
-            bindings = <&mt NUMBER_7 F7>;
-            key-positions = <20 21>;
-            layers = <1 2>;
-            timeout-ms = <60>;
-        };
-
         l3_home_pgup_combo {
             bindings = <&mt HOME PG_UP>;
             key-positions = <20 21>;
@@ -510,6 +496,162 @@
             key-positions = <51 55>;
             timeout-ms = <65>;
             slow-release;
+        };
+
+        gg-2-f1 {
+            bindings = <&kp F1>;
+            key-positions = <14 26>;
+            timeout-ms = <60>;
+        };
+
+        gg-2-f2 {
+            bindings = <&kp F2>;
+            key-positions = <15 27>;
+            timeout-ms = <60>;
+        };
+
+        gg-2-f3 {
+            bindings = <&kp F3>;
+            key-positions = <16 28>;
+            timeout-ms = <60>;
+        };
+
+        gg-2-f4 {
+            bindings = <&kp F4>;
+            key-positions = <17 29>;
+            timeout-ms = <60>;
+        };
+
+        gg-2-f5 {
+            bindings = <&kp F5>;
+            key-positions = <18 30>;
+            timeout-ms = <60>;
+        };
+
+        gg-2-f6 {
+            bindings = <&kp F6>;
+            key-positions = <19 33>;
+            timeout-ms = <60>;
+        };
+
+        gg-2-f7 {
+            bindings = <&kp F7>;
+            key-positions = <20 34>;
+            timeout-ms = <60>;
+        };
+
+        gg-2-f8 {
+            bindings = <&kp F8>;
+            key-positions = <21 35>;
+            timeout-ms = <60>;
+        };
+
+        gg-2-f9 {
+            bindings = <&kp F9>;
+            key-positions = <22 36>;
+            timeout-ms = <60>;
+        };
+
+        gg-2-f10 {
+            bindings = <&kp F10>;
+            key-positions = <23 37>;
+            timeout-ms = <60>;
+        };
+
+        gg-2-f1 {
+            bindings = <&kp F1>;
+            key-positions = <14 28>;
+            timeout-ms = <60>;
+        };
+
+        gg-2-f2 {
+            bindings = <&kp F2>;
+            key-positions = <15 29>;
+            timeout-ms = <60>;
+        };
+
+        gg-2-f3 {
+            bindings = <&kp F3>;
+            key-positions = <16 30>;
+            timeout-ms = <60>;
+        };
+
+        gg-2-f4 {
+            bindings = <&kp F4>;
+            key-positions = <17 31>;
+            timeout-ms = <60>;
+        };
+
+        gg-2-f7 {
+            bindings = <&kp F7>;
+            key-positions = <20 32>;
+            timeout-ms = <60>;
+        };
+
+        gg-2-f8 {
+            bindings = <&kp F8>;
+            key-positions = <21 33>;
+            timeout-ms = <60>;
+        };
+
+        gg-2-f9 {
+            bindings = <&kp F9>;
+            key-positions = <22 34>;
+            timeout-ms = <60>;
+        };
+
+        gg-2-f10 {
+            bindings = <&kp F10>;
+            key-positions = <23 35>;
+            timeout-ms = <60>;
+        };
+
+        gg-2-f11 {
+            bindings = <&kp F11>;
+            key-positions = <24 36>;
+            timeout-ms = <60>;
+        };
+
+        gg-3-f4 {
+            bindings = <&kp F4>;
+            key-positions = <17 16>;
+            timeout-ms = <60>;
+        };
+
+        gg-3-f5 {
+            bindings = <&kp F5>;
+            key-positions = <18 17>;
+            timeout-ms = <60>;
+        };
+
+        gg-3-f6 {
+            bindings = <&kp F6>;
+            key-positions = <19 20>;
+            timeout-ms = <60>;
+        };
+
+        gg-3-f7 {
+            bindings = <&kp F7>;
+            key-positions = <20 21>;
+            timeout-ms = <60>;
+        };
+
+        gg-3-f8 {
+            bindings = <&kp F8>;
+            key-positions = <21 22>;
+            timeout-ms = <60>;
+        };
+
+        gg-3-f9 {
+            bindings = <&kp F9>;
+            key-positions = <22 23>;
+            timeout-ms = <60>;
+        };
+
+        gg-3-f10 {
+            bindings = <&kp F10>;
+            key-positions = <23 24>;
+            timeout-ms = <60>;
         };
     };
 
