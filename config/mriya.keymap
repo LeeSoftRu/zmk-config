@@ -13,13 +13,9 @@
 #define RSE 2
 #define ADJ 3
 
-&lt {
-    quick_tap_ms = <200>;
-};
+&lt { quick_tap_ms = <200>; };
 
-&mt {
-    quick_tap_ms = <200>;
-};
+&mt { quick_tap_ms = <200>; };
 
 / {
     combos {
@@ -367,9 +363,6 @@
         };
     };
 
-    macros {
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -413,7 +406,7 @@
             >;
         };
 
-        layer_4_is_useless {
+        l4__useless {
             bindings = <
         &trans                                  &trans     &trans        &trans     &trans            &trans        &to 0       &to 3       &trans             &trans            &trans  &trans
 &trans  &kp PAUSE_BREAK                         &kp TILDE  &kp ASTERISK  &kp FSLH   &kp PIPE          &kp LS(N1)    &kp C_NEXT  &kp C_STOP  &kp C_VOLUME_UP    &kp C_PLAY_PAUSE  &trans  &trans  &trans
@@ -453,7 +446,7 @@
             >;
         };
 
-        adjust_layer {
+        l8_adjust_layer {
             bindings = <
        &none        &none         &none         &none         &none         &none           &none         &none         &none         &none         &none         &none
 &none  &bootloader  &none         &none         &none         &none         &none           &none         &none         &none         &none         &none         &bootloader  &none
@@ -463,7 +456,7 @@
             >;
         };
 
-        raise_layer {
+        l9_raise_layer {
             bindings = <
         &trans           &trans           &trans     &trans     &trans     &trans          &trans        &trans    &trans     &trans     &trans           &trans
 &trans  &kp KP_NUM       &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS    &kp C_VOL_UP  &kp HOME  &kp PSCRN  &kp PG_UP  &kp SLCK         &kp CAPS         &trans
@@ -473,7 +466,7 @@
             >;
         };
 
-        lower_layer {
+        l10_lower_layer__useless {
             bindings = <
         &trans          &trans    &trans  &trans     &trans    &trans       &trans     &trans    &trans     &trans    &trans    &trans
 &trans  &kp UNDER       &kp F1    &kp F2  &kp F3     &kp F4    &kp F5       &kp F6     &kp F7    &kp F8     &kp F9    &kp F10   &kp F11          &mt RGUI F12
