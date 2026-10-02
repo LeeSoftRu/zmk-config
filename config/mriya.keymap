@@ -38,6 +38,7 @@
             bindings = <&mt RIGHT_ALT F15>;
             key-positions = <56 45>;
             timeout-ms = <65>;
+            slow-release;
         };
 
         left_enter_combo {
@@ -239,6 +240,7 @@
             key-positions = <43 52>;
             layers = <5>;
             timeout-ms = <60>;
+            slow-release;
         };
 
         l0_r_alt_combo {
@@ -246,6 +248,7 @@
             key-positions = <55 44>;
             layers = <0>;
             timeout-ms = <60>;
+            slow-release;
         };
 
         l0_l3__thumb_to_l1_2_combo {
@@ -267,6 +270,7 @@
             bindings = <&kp ESCAPE>;
             key-positions = <16 15>;
             layers = <0 3>;
+            timeout-ms = <60>;
         };
 
         l0_l3__enter_9 {
@@ -303,61 +307,6 @@
         gg_backspace_5_combo {
             bindings = <&kp BACKSPACE>;
             key-positions = <46 45>;
-        };
-
-        gg_f6_combo {
-            bindings = <&kp F6>;
-            key-positions = <6 19>;
-        };
-
-        gg_f7_combo {
-            bindings = <&kp F7>;
-            key-positions = <7 20>;
-        };
-
-        gg_f2_combo {
-            bindings = <&kp F2>;
-            key-positions = <2 15>;
-        };
-
-        gg_f3_combo {
-            bindings = <&kp F3>;
-            key-positions = <3 16>;
-        };
-
-        gg_f4_combo {
-            bindings = <&kp F4>;
-            key-positions = <4 17>;
-        };
-
-        gg_f5_combo {
-            bindings = <&kp F5>;
-            key-positions = <5 18>;
-        };
-
-        gg_1_combo {
-            bindings = <&kp N1>;
-            key-positions = <14 27>;
-        };
-
-        gg_2_combo {
-            bindings = <&kp N2>;
-            key-positions = <15 28>;
-        };
-
-        gg_3_combo {
-            bindings = <&kp N3>;
-            key-positions = <16 29>;
-        };
-
-        gg_4_combo {
-            bindings = <&kp N4>;
-            key-positions = <17 30>;
-        };
-
-        gg_5_combo {
-            bindings = <&kp N5>;
-            key-positions = <18 31>;
         };
 
         gg_f12_1 {
@@ -397,11 +346,6 @@
             key-positions = <10 23>;
         };
 
-        gg_f1_combo {
-            bindings = <&kp F1>;
-            key-positions = <1 14>;
-        };
-
         gg_l_gui_combo_3 {
             bindings = <&kp LEFT_GUI>;
             key-positions = <42 40>;
@@ -424,6 +368,126 @@
             bindings = <&kp LS(LA(LC(ENTER)))>;
             key-positions = <15 17>;
             timeout-ms = <65>;
+        };
+
+        gg_f1_combo {
+            bindings = <&kp F1>;
+            key-positions = <1 14>;
+            timeout-ms = <60>;
+        };
+
+        gg_f2_combo {
+            bindings = <&kp F2>;
+            key-positions = <2 15>;
+            timeout-ms = <60>;
+        };
+
+        gg_f3_combo {
+            bindings = <&kp F3>;
+            key-positions = <3 16>;
+            timeout-ms = <60>;
+        };
+
+        gg_f4_combo {
+            bindings = <&kp F4>;
+            key-positions = <4 17>;
+            timeout-ms = <60>;
+        };
+
+        gg_f5_combo {
+            bindings = <&kp F5>;
+            key-positions = <5 18>;
+            timeout-ms = <60>;
+        };
+
+        gg_f1 {
+            bindings = <&kp F1>;
+            key-positions = <14 27>;
+            timeout-ms = <60>;
+        };
+
+        gg_f2 {
+            bindings = <&kp F2>;
+            key-positions = <15 28>;
+            timeout-ms = <60>;
+        };
+
+        gg_f3 {
+            bindings = <&kp F3>;
+            key-positions = <16 29>;
+            timeout-ms = <60>;
+        };
+
+        gg_f4 {
+            bindings = <&kp F4>;
+            key-positions = <17 30>;
+            timeout-ms = <60>;
+        };
+
+        gg_f5 {
+            bindings = <&kp F5>;
+            key-positions = <18 31>;
+            timeout-ms = <60>;
+        };
+
+        gg-f6 {
+            bindings = <&kp F6>;
+            key-positions = <6 19>;
+            timeout-ms = <60>;
+        };
+
+        gg-f7 {
+            bindings = <&kp F7>;
+            key-positions = <7 20>;
+            timeout-ms = <60>;
+        };
+
+        gg-f8 {
+            bindings = <&kp F8>;
+            key-positions = <8 21>;
+            timeout-ms = <60>;
+        };
+
+        gg-f9 {
+            bindings = <&kp F9>;
+            key-positions = <9 22>;
+            timeout-ms = <60>;
+        };
+
+        gg-f10 {
+            bindings = <&kp F10>;
+            key-positions = <10 23>;
+            timeout-ms = <60>;
+        };
+
+        gg-f6-2 {
+            bindings = <&kp F6>;
+            key-positions = <19 32>;
+            timeout-ms = <60>;
+        };
+
+        gg-f7-2 {
+            bindings = <&kp F7>;
+            key-positions = <20 33>;
+            timeout-ms = <60>;
+        };
+
+        gg-f8-2 {
+            bindings = <&kp F8>;
+            key-positions = <21 34>;
+            timeout-ms = <60>;
+        };
+
+        gg-f9-2 {
+            bindings = <&kp F9>;
+            key-positions = <22 35>;
+            timeout-ms = <60>;
+        };
+
+        gg-f10-2 {
+            bindings = <&kp F10>;
+            key-positions = <23 36>;
+            timeout-ms = <60>;
         };
     };
 
