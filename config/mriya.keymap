@@ -264,6 +264,7 @@
             key-positions = <55 56>;
             timeout-ms = <65>;
             layers = <3 0>;
+            slow-release;
         };
 
         l0_l3__esc_9 {
@@ -488,6 +489,27 @@
             bindings = <&kp F10>;
             key-positions = <23 36>;
             timeout-ms = <60>;
+        };
+
+        gg_lang_toggle_and_l1_combo-2 {
+            bindings = <&mt LEFT_ALT F13>;
+            key-positions = <56 51>;
+            timeout-ms = <65>;
+            slow-release;
+        };
+
+        gg-l2-1 {
+            bindings = <&mo 1>;
+            key-positions = <52 56>;
+            timeout-ms = <65>;
+            slow-release;
+        };
+
+        gg-l1-2 {
+            bindings = <&mo 1>;
+            key-positions = <51 55>;
+            timeout-ms = <65>;
+            slow-release;
         };
     };
 
