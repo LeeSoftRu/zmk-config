@@ -558,55 +558,55 @@
             timeout-ms = <60>;
         };
 
-        gg-2-f1 {
+        gg-4-f1 {
             bindings = <&kp F1>;
             key-positions = <14 28>;
             timeout-ms = <60>;
         };
 
-        gg-2-f2 {
+        gg-4-f2 {
             bindings = <&kp F2>;
             key-positions = <15 29>;
             timeout-ms = <60>;
         };
 
-        gg-2-f3 {
+        gg-4-f3 {
             bindings = <&kp F3>;
             key-positions = <16 30>;
             timeout-ms = <60>;
         };
 
-        gg-2-f4 {
+        gg-4-f4 {
             bindings = <&kp F4>;
             key-positions = <17 31>;
             timeout-ms = <60>;
         };
 
-        gg-2-f7 {
+        gg-4-f7 {
             bindings = <&kp F7>;
             key-positions = <20 32>;
             timeout-ms = <60>;
         };
 
-        gg-2-f8 {
+        gg-4-f8 {
             bindings = <&kp F8>;
             key-positions = <21 33>;
             timeout-ms = <60>;
         };
 
-        gg-2-f9 {
+        gg-4-f9 {
             bindings = <&kp F9>;
             key-positions = <22 34>;
             timeout-ms = <60>;
         };
 
-        gg-2-f10 {
+        gg-4-f10 {
             bindings = <&kp F10>;
             key-positions = <23 35>;
             timeout-ms = <60>;
         };
 
-        gg-2-f11 {
+        gg-4-f11 {
             bindings = <&kp F11>;
             key-positions = <24 36>;
             timeout-ms = <60>;
