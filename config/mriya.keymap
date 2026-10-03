@@ -720,11 +720,11 @@
 
         l6_soft {
             bindings = <
-        &trans  &trans  &trans         &trans  &trans         &trans                   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans         &trans  &trans         &kp LA(SPACE)            &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &kp LS(LC(W))  &trans  &trans         &kp LC(LA(LS(ENTER)))    &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans         &trans  &kp LG(LS(F))  &trans                   &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans         &trans  &trans         &trans                   &trans  &trans  &trans  &trans
+        &trans  &trans         &trans         &trans                 &trans                 &trans                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LS(LC(W))  &kp LS(LC(W))  &kp LA(SPACE)          &kp LA(SPACE)          &kp LA(SPACE)            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &kp LS(LC(R))  &kp LS(LC(R))  &kp LC(LA(LS(ENTER)))  &kp LC(LA(LS(ENTER)))  &kp LC(LA(LS(ENTER)))    &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans         &trans         &kp LG(LS(F))          &kp LG(LS(F))          &trans                   &trans  &trans  &trans  &trans  &trans  &trans
+                               &trans         &trans                 &trans                 &trans                   &trans  &trans  &trans  &trans
             >;
         };
 
